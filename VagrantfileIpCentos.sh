@@ -4,7 +4,7 @@
 Vagrant.configure("2") do |config|
     # load de centos7 box from vagrant cloud
     config.vm.box = "centos/7"
-    config.vm.network "private_network", ip: "192.168.56.133"
+    config.vm.network "private_network", ip: "192.168.56.100"
     config.vm.provider "virtualbox" do |vb|
       vb.memory = 1024
       vb.cpus = 2

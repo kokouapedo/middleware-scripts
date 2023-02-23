@@ -1,6 +1,4 @@
-#!/bin/bash
 
-# Author : Kapedo
 
 # Installation et configuration de SonarQube on CentOS 7 #
 
